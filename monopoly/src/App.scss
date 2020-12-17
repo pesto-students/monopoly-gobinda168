@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap");
+.App {
+  text-align: center;
+  font-family: Montserrat;
+  // margin: 5px;
+  .button {
+    padding: 0.8rem 2rem;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0.3em;
+    text-transform: uppercase;
+    font-weight: 900;
+
+    &:hover {
+      background-color: #387014;
+      color: white;
+    }
+  }
+  .input {
+    padding: 0.7rem 1rem;
+    // font-weight: bolder;
+    font-family: Montserrat;
+    font-size: large;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0.3em;
+    width: 300px;
+  }
+}

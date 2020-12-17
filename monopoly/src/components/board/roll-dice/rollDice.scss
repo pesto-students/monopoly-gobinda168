@@ -1,0 +1,9 @@
+.rollDice {
+  .dices {
+    img {
+      margin: 1rem 1rem;
+      transition: all 1s;
+      transform: rotateX(360deg);
+    }
+  }
+}

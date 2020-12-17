@@ -1,0 +1,75 @@
+$primary-color: #cce6ce;
+.monopoly-board {
+  font-size: small;
+  height: 99.5vh;
+  display: grid;
+  grid-template-columns: 200px repeat(9, 1fr) 200px;
+  grid-template-rows: 100px repeat(9, minmax(0px, 1fr)) 100px;
+  .game-center {
+    grid-column: 2/11;
+    grid-row: 2/11;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .center {
+      align-self: center;
+      width: 40%;
+    }
+    .left {
+      align-self: center;
+      width: 30%;
+    }
+    .right {
+      // justify-self: space-around;
+      align-self: center;
+      width: 30%;
+    }
+  }
+  .block {
+    background-color: $primary-color;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .price-text {
+      font-weight: 900;
+      margin-top: 10px;
+      font-weight: 100;
+    }
+    .color {
+      height: 20px;
+      width: 100%;
+    }
+    // width: 300px;
+  }
+  .boardLeft {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row-reverse;
+    .color {
+      width: 20px;
+      height: 100%;
+    }
+  }
+  .boardRight {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    .color {
+      width: 20px;
+      height: 100%;
+    }
+  }
+  .boardTop {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .boardBottom {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+  }
+}
