@@ -1,46 +1,70 @@
-# Monopoly Classic edition
+# Getting Started with Create React App
 
-Monopoly is a game in which each player has a piece that moves around a game board, with the piece's change in location determined by rolling a pair of dice. The game board consists of a set of properties(initially owned by a bank) that may be purchased by the players.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-When a piece lands on a property that is not owned, the player may use money to buy the property from the bank for that property's price. If a player lands on a property she already owns, she may build houses and hotels on the property. each house and hotel costs some price specific for the property. When a player's piece lands on a property owned by another player, the owner collects money(rent) from the player whose piece landed on the property.
+## Available Scripts
 
-The game is played until only one remaining player has money and property, with all other players being bankrupt.
+In the project directory, you can run:
 
-# Instructions
+### `yarn start`
 
-1. Minimum 2 players are required to play the game. Maximum 4 players allowed in a game.
-2. Each player receives \$1500 as initial amount to play the game.
-3. Player must enter his/her name before starting the game.
-4. Functionality should be the main priority. Game should work as per rules mentioned in rulebook. keep the UI minimal.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-For game rules, Please see [Monopoly rulebook](https://www.hasbro.com/common/documents/A0AFE3A69EC745EBA77B9A7950BBCA44/AD7742057B1D43609B53D24D75E9CA9B.pdf)
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-# Gameboard UI
+### `yarn test`
 
-![](assets/game-board.jpg)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Additional Requirement
+### `yarn build`
 
-- Write Test cases for your components.
-- Make it online multiplayer game with the help of Websockets
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Tips
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Deploy your application in very early stage and then do continous development.
-- Test your application in Google Chrome, Mozilla firefox and Internet explorer 11.
-- If you plan to create this project with React, use Create React App for boilerplate code.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Allowed Tech stack
+### `yarn eject`
 
-- HTML, CSS, JavaScript
-- Bootstrap
-- ReactJS
-- SCSS
-- DOM Testing Library
-- Jest and React Testing Library
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-**NOTE: React Component libraries like Material UI, Antd, Chakra UI are not allowed**
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Reference Link
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-https://www.intrepidcoder.com/projects/monopoly/
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
